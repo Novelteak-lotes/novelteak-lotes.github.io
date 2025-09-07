@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="planos_catastrados_merge_crtm05_v35" id="planos_catastrados_merge_crtm05_v35">
+	<SimpleField name="HECTAREAS" type="float"></SimpleField>
+	<SimpleField name="FOLIO" type="string"></SimpleField>
+	<SimpleField name="PLANO" type="string"></SimpleField>
+	<SimpleField name="PERIMETER" type="float"></SimpleField>
+	<SimpleField name="FINCA" type="string"></SimpleField>
+	<SimpleField name="PAIS" type="string"></SimpleField>
+	<SimpleField name="GARANTIA" type="string"></SimpleField>
+	<SimpleField name="Fnnn" type="string"></SimpleField>
+</Schema>
+<Folder><name>planos_catastrados_merge_crtm05_v35</name>
+  <Placemark id="planos_catastrados_merge_crtm05_v35.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#planos_catastrados_merge_crtm05_v35">
+		<SimpleData name="HECTAREAS">0.18127</SimpleData>
+		<SimpleData name="FOLIO">5-82147-000</SimpleData>
+		<SimpleData name="PLANO">5-72655-1992</SimpleData>
+		<SimpleData name="PERIMETER">203.65780</SimpleData>
+		<SimpleData name="FINCA">NOA</SimpleData>
+		<SimpleData name="PAIS">CR</SimpleData>
+		<SimpleData name="GARANTIA">NO</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-85.4408401375313,10.6251550037483 -85.4406214742676,10.6252479518102 -85.4403587721948,10.624670272749 -85.4405732206808,10.6245770990588 -85.4408401375313,10.6251550037483</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
